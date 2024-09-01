@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+img{
+	width:50%;
+	height:50%;
+	object-fit:cover;
+}
+.hero {
+    display: flex; /* Enables flexbox layout */
+    align-items: center; /* Aligns items vertically to the center */
+    gap: 20px; /* Adds space between the image and the heading */
+}
+.side{
+	text-align:center;
+}
+button{
+	background-color:red;
+	padding:10px;
+	color:white;
+	border-radius:10px;
+}
+
